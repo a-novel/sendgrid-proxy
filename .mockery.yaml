@@ -1,0 +1,8 @@
+with-expecter: True
+quiet: False
+packages:
+  github.com/a-novel/sendgrid-proxy:
+    config:
+      all: True
+      inpackage: True
+      dir: .
